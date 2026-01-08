@@ -59,7 +59,7 @@ const Implementasi = ({ ...data }) => {
                      ) : (
                         <tr>
                            <td className="text-center" colSpan={5}>
-                              Belum ada tindak lanjut
+                              Tidak ada dokumen
                            </td>
                         </tr>
                      )}
