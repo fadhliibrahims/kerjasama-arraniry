@@ -12,8 +12,8 @@ const Footer = () => {
                </Col>
                <Col md={9}>
                   <p className="text-white mb-0">
-                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The
-                     point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.
+                     Dikelola oleh Subtim Kerjasama dan Kelembagaan | Tim Kerjasama, Kelembagaan dan Humas | Biro Administrasi Akademik, Kemahasiswaan
+                     dan Kerjasama UIN Ar-Raniry Banda Aceh
                   </p>
                </Col>
             </Row>

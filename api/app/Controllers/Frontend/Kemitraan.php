@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers\Frontend;
+namespace App\Controllers\Api;
 
 use App\Controllers\BaseController;
 use App\Models\Frontend\Kemitraan as Model;

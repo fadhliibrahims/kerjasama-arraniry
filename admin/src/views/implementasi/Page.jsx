@@ -87,7 +87,7 @@ export default function Page() {
                label: "Tambah Data",
                href: "/implementasi/forms",
             },
-         })
+         }),
       );
 
       const grid = new Grid({
@@ -100,7 +100,7 @@ export default function Page() {
                      <div class="row-actions">
                         <span class="edit"><a href="" id="edit" data-json="${row.jwt}">Edit</a> | </span>
                         <span class="trash"><a href="" id="hapus" data-id="${row.id}">Hapus</a></span>
-                     </div>`
+                     </div>`,
                   );
                },
             },
@@ -108,7 +108,7 @@ export default function Page() {
                name: "Mitra",
                data: (row) => {
                   return html(
-                     `${row.nama}<br/>${row.nomor_dokumen}<br/><a href="${row.path_dokumen}" target="_blank" style="font-size: 12px;">${row.nama_dokumen}</a>`
+                     `${row.nama}<br/>${row.nomor_dokumen}<br/><a href="${row.path_dokumen}" target="_blank" style="font-size: 12px;">${row.nama_dokumen}</a>`,
                   );
                },
             },
@@ -130,6 +130,7 @@ export default function Page() {
          server: {
             url: `${window.apiUrl}/implementasi/getdata`,
             then: (data) => data.results,
+            total: (data) => data.total,
             headers: { ...init.token },
          },
          search: {

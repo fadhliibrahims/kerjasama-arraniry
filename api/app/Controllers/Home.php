@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\Common as Model;
+use App\Controllers\BaseController;
 
 class Home extends BaseController
 {
